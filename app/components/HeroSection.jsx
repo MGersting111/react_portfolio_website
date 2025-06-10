@@ -35,11 +35,24 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Currently, I'm building an HR management SaaS in Flutter alongside my main job.
           </p>
           <div>
-            <button className="px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-white hover:bg-slate-200 text-black">Hire Me</button>
-            <button className="px-6 py-3 rounded-full w-full sm:w-fit bg-transparent hover:bg-slate-800 text-white border border-white mt-3">Download CSV</button>
+            <div>
+              <a
+                href="mailto:gerstingmicha@gmail.com"
+                className="inline-block px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-white hover:bg-slate-200 text-black text-center"
+              >
+                Hire Me
+              </a>
+              <a
+                href="/files/Lebenslauf_MichaGersting.pdf"
+                download
+                className="inline-block px-6 py-3 rounded-full w-full sm:w-fit bg-transparent hover:bg-slate-800 text-white border border-white mt-3 text-center"
+              >
+                Download CV
+              </a>
+            </div>
           </div>
         </div>
         <div className="sm:col-span-5 flex justify-center items-center mb-8 sm:mb-0">

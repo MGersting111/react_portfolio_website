@@ -12,9 +12,9 @@ const TAB_DATA = [
         <li>Flutter</li>
         <li>Flask</li>
         <li>Next.js</li>
-        <li>Tableau & Qlik Sense</li>
-        <li>Pandas & Scikit-Learn</li>
-        <li>Postgres</li>
+        <li>Qlik Sense</li>
+        <li>Pandas</li>
+        <li>SQL</li>
         
       </ul>
     ),
@@ -70,9 +70,7 @@ const AboutSection = () => {
                 <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                     <h2 className='text-4xl font-bold mb-4'>About Me</h2>
                     <p className='text-base lg:text-lg'>
-                        I am a passionate Full Stack Developer with a keen interest in building scalable web applications and data-driven solutions.
-                        With a strong foundation in both front-end and back-end technologies, I strive to create seamless user experiences while ensuring robust functionality.
-                        My journey in the tech world has equipped me with the skills to tackle complex challenges and deliver innovative solutions.
+                       I'm a Full Stack Developer with hands-on experience in multiple technologies. During my time as a working student, I took on the role of lead UI developer for a client project. I enjoy diving into new tools and frameworks, and I’m always looking for better ways to solve complex problems. My work is driven by a focus on functionality, maintainability, and clean design across both front-end and back-end systems.
                     </p>
                     <div className="flex flex-row justify-start mt-8">
                         <TabButton
